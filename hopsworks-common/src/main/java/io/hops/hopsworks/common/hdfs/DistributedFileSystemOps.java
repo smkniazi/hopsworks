@@ -84,8 +84,8 @@ public class DistributedFileSystemOps {
   private final String effectiveUser;
 
   public enum StoragePolicy {
-    SMALL_FILES("DB"),
-    DEFAULT("HOT");
+    SMALL_FILES("CLOUD"),
+    DEFAULT("CLOUD");
 
     private String policyName;
 
